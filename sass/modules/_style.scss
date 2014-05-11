@@ -1,0 +1,33 @@
+.content {
+  @extend %size-m;
+  border-color: $color-tee-hell;
+  border-style: double;
+  border-width: 6px;
+}
+
+.footer {
+  @extend %size-s;
+  background-color: $color-fastschwarz;
+  color: $color-hellocker !important;
+  text-transform: uppercase;
+  letter-spacing: 0.102em;
+  padding: 0.66667em 1.33333em;
+  text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: $color-hellblau;
+	&:visited {
+		color: $color-dunkelblau;
+	}
+	&:hover,
+	&:active {
+		@include text-shadow($color-white 0 0 0.5ex);
+		text-decoration: underline;
+	}
+}
+
+em {
+  font-style: italic;
+}

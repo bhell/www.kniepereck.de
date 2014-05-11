@@ -1,0 +1,22 @@
+.content {
+  margin: 4em auto;
+  max-width: 40em;
+  & > * {
+    margin: 2rem 2rem 0 2rem;
+  }
+  & .full-width {
+    margin: 0;
+  }
+}
+
+.logo {
+  text-align: center;
+  margin: 4em;
+  img {
+    max-width: 256px;
+  }
+}
+
+.right {
+  text-align: right;
+}

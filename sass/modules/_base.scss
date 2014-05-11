@@ -1,0 +1,33 @@
+$golden-ratio: 1.61803398875;
+$base-font-size: 1em;
+$base-line-height: 1.45rem;
+
+%size-xs {
+  font-size: $base-font-size / $golden-ratio / $golden-ratio;
+  //line-height: $base-line-height / $golden-ratio / $golden-ratio;
+}
+
+%size-s {
+  font-size: $base-font-size / $golden-ratio;
+  //line-height: $base-line-height / $golden-ratio;
+}
+
+%size-m {
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+%size-l {
+  font-size: $base-font-size * $golden-ratio;
+  //line-height: $base-line-height * $golden-ratio;
+}
+
+%size-xl {
+  font-size: $base-font-size * $golden-ratio * $golden-ratio;
+  //line-height: $base-line-height * $golden-ratio * $golden-ratio;
+}
+
+%size-xxl {
+  font-size: $base-font-size * $golden-ratio * $golden-ratio * $golden-ratio;
+  //line-height: $base-line-height * $golden-ratio * $golden-ratio * $golden-ratio;
+}

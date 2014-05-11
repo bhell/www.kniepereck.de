@@ -1,0 +1,18 @@
+body {
+  background-image: url(../images/background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: $color-fastschwarz;
+  background-size: cover;
+}
+
+.content {
+  background-color: transparentize($color-hellocker, 0.3);
+}
+
+.footerbackground {
+    min-height: image-height("../images/silhouette1.png");
+    background-image: url(../images/silhouette.svg);
+    background-position: center bottom;
+    background-repeat: repeat-x;
+}
