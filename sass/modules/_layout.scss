@@ -1,6 +1,8 @@
+body {
+  padding: 2em;
+}
 .content {
-  margin: 4em auto;
-  max-width: 40em;
+  margin: 0 auto;
   & > * {
     margin: 2rem 2rem 0 2rem;
   }
@@ -11,12 +13,30 @@
 
 .logo {
   text-align: center;
-  margin: 4em;
+  margin: 2em;
   img {
-    max-width: 256px;
+    max-width: 128px;
   }
 }
 
 .right {
   text-align: right;
+}
+
+@media all and (min-width: 30em) {
+  .content {
+    max-width: 20em;
+  }
+  .logo img {
+    max-width: 192px;
+  }
+}
+
+@media all and (min-width: 50em) {
+  .content {
+    max-width: 40em;
+  }
+  .logo img {
+    max-width: 256px;
+  }
 }

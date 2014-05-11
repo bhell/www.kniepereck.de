@@ -24,7 +24,7 @@ $base-line-height: 1.45rem;
 
 %size-xl {
   font-size: $base-font-size * $golden-ratio * $golden-ratio;
-  //line-height: $base-line-height * $golden-ratio * $golden-ratio;
+  line-height: $base-line-height * $golden-ratio;
 }
 
 %size-xxl {
