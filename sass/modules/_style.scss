@@ -28,6 +28,13 @@ a {
 	}
 }
 
+.content + p a {
+  color: $color-hellocker;
+  &:visited {
+    color: $color-hellocker;
+  }
+}
+
 em {
   font-style: italic;
 }

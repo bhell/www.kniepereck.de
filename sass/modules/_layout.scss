@@ -10,6 +10,9 @@ body {
     margin: 0;
   }
 }
+.content + p {
+  margin: 1rem auto 0 auto;
+}
 
 .logo {
   text-align: center;
@@ -24,7 +27,8 @@ body {
 }
 
 @media all and (min-width: 30em) {
-  .content {
+  .content,
+  .content + p {
     max-width: 20em;
   }
   .logo img {
@@ -33,7 +37,8 @@ body {
 }
 
 @media all and (min-width: 50em) {
-  .content {
+  .content,
+  .content + p {
     max-width: 40em;
   }
   .logo img {
