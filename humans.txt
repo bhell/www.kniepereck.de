@@ -1,0 +1,22 @@
+/* TEAM */
+	Chef: Benjamin Hell
+	Contact: http://www.bhell.net/contact/
+	From: Uppsala, Sweden
+
+	Content: Wera Kabermann
+	Contact: http://www.kniepereck.de/kontakt/
+	From: Stralsund, Germany
+
+/* THANKS */
+	Previous version of this site: Georg Hell
+	Contact: http://www.thehellmovie.com/
+	From: Esslingen, Germany
+
+	django-cms: The Divio people and all other contributors
+	Contact: https://www.divio.ch/
+
+/* SITE */
+	Last major update: 2014/05/15
+	Language: Deutsch
+	Doctype: HTML5
+	IDE: Django, MySQL, django-cms, modernizr, a text editor, Github pages
